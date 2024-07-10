@@ -1,0 +1,159 @@
+/* Small Screen */
+.container {
+  background-color: white;
+  padding: 2rem;
+}
+
+.covidglobal__title {
+  text-align: center;
+  color: #7469b6;
+  font-size: 2.5rem;
+}
+
+.covidglobal__desc {
+  color: #118ab2;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.situations__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.covidglobal__content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 25px;
+  margin: 4rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+
+.covidglobal__status {
+  font-size: 1.5rem;
+  color: black;
+  margin: auto;
+}
+
+.covidglobal__region {
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.covid__data {
+  margin: 1rem;
+}
+
+.confirmed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recovered {
+  display: flex;
+  justify-content: space-between;
+}
+
+.death {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list1,
+.list2,
+.list3 {
+  text-align: left;
+  margin-right: 4rem auto;
+}
+
+.list1 > h3,
+.confirmed > i {
+  color: #7469b6;
+  align-items: center;
+}
+
+.list2 > h3,
+.recovered > i {
+  color: #ad88c6;
+  align-items: center;
+}
+
+.list3 > h3,
+.death > i {
+  color: #118ab2;
+  align-items: center;
+}
+
+.situations__container {
+  margin-top: 5rem;
+  background-color: white;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .covidglobal__content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 0 3rem 0;
+  }
+
+  .covidglobal__status {
+    font-size: 1rem;
+    color: black;
+    margin: 0 2rem 0 2rem;
+  }
+
+  .list1,
+  .list2,
+  .list3 {
+    margin-right: 4rem;
+  }
+
+  .covidglobal__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    margin-bottom: 3rem;
+  }
+
+  .covidglobal__container {
+    max-width: 1200px;
+    margin: 1rem auto;
+  }
+
+  .covidglobal__status {
+    font-size: 1.7rem;
+    color: black;
+    margin: 0 2.5rem 0 2.5rem;
+  }
+
+  .covidglobal__content {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .list1,
+  .list2,
+  .list3 {
+    margin-right: 6rem;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,107 @@
+/* Overall form container */
+.container {
+  text-align: center;
+  background-color: #f8f9fa;
+  display: flex;
+  padding: 4rem;
+}
+
+.covid__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.covid__details {
+  text-align: left;
+  align-items: center;
+}
+
+.covids__title {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #7469b6;
+}
+
+.covid__image {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.covid__image img {
+  width: 100%;
+  justify-content: center;
+}
+
+/* covid title and details */
+.covid__title,
+.covid__status,
+.covid__jumlah {
+  margin-top: 0.5rem;
+}
+
+select {
+  width: 12.5rem;
+  height: 2.5rem;
+  padding: rem;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.covid__jumlah input {
+  width: 12.5rem;
+}
+
+.covid__title p,
+.covid__status p,
+.covid__jumlah p {
+  color: #118ab2;
+  font-size: 1.5rem;
+}
+
+/* Input fields */
+.covid__jumlah input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit {
+  margin-top: 1rem;
+}
+
+.submit button {
+  padding: 0.5rem 4.8rem;
+  background-color: #7469b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0rem;
+  align-content: center;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  /*
+   * Nothing TODO Here.
+   * We dont change style Hero. 
+   */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .covid__image img {
+    width: 60%;
+    /* margin-left: -5rem; */
+  }
+  .covid__details {
+    text-align: left;
+    align-items: center;
+    margin-left: -20rem;
+  }
+}

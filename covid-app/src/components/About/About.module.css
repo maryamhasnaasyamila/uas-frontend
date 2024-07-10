@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 35%;
+}
+
+.desc {
+  text-align: justify;
+  align-items: center;
+  margin: 3rem 4rem 0 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0 0 0;
+}
